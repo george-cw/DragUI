@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<Window size="980,680" caption="0,0,0,24">
+    <Font name="" size="16" bold="true" italic="false" />   
+    <Font name="" size="12" bold="false" italic="false" /> 
+    <Default name="VScrollBar" value="button1normalimage=&quot;file='scrollbar.bmp' source='0,90,16,106' mask='#FFFF00FF'&quot; button1hotimage=&quot;file='scrollbar.bmp' source='18,90,34,106' mask='#FFFF00FF'&quot; button1pushedimage=&quot;file='scrollbar.bmp' source='36,90,52,106' mask='#FFFF00FF'&quot; button1disabledimage=&quot;file='scrollbar.bmp' source='54,90,70,106' mask='#FFFF00FF'&quot; button2normalimage=&quot;file='scrollbar.bmp' source='0,108,16,124' mask='#FFFF00FF'&quot; button2hotimage=&quot;file='scrollbar.bmp' source='18,108,34,124' mask='#FFFF00FF'&quot; button2pushedimage=&quot;file='scrollbar.bmp' source='36,108,52,124' mask='#FFFF00FF'&quot; button2disabledimage=&quot;file='scrollbar.bmp' source='54,108,70,124' mask='#FFFF00FF'&quot; thumbnormalimage=&quot;file='scrollbar.bmp' source='0,126,16,142' corner='2,2,2,2' mask='#FFFF00FF'&quot; thumbhotimage=&quot;file='scrollbar.bmp' source='18,126,34,142' corner='2,2,2,2' mask='#FFFF00FF'&quot; thumbpushedimage=&quot;file='scrollbar.bmp' source='36,126,52,142' corner='2,2,2,2' mask='#FFFF00FF'&quot; thumbdisabledimage=&quot;file='scrollbar.bmp' source='54,126,70,142' corner='2,2,2,2' mask='#FFFF00FF'&quot; railnormalimage=&quot;file='scrollbar.bmp' source='0,144,16,160' corner='2,2,2,2' mask='#FFFF00FF'&quot; railhotimage=&quot;file='scrollbar.bmp' source='18,144,34,160' corner='2,2,2,2' mask='#FFFF00FF'&quot; railpushedimage=&quot;file='scrollbar.bmp' source='36,144,52,160' corner='2,2,2,2' mask='#FFFF00FF'&quot; raildisabledimage=&quot;file='scrollbar.bmp' source='54,144,70,160' corner='2,2,2,2' mask='#FFFF00FF'&quot; bknormalimage=&quot;file='scrollbar.bmp' source='0,162,16,178' corner='2,2,2,2' mask='#FFFF00FF'&quot; bkhotimage=&quot;file='scrollbar.bmp' source='18,162,34,178' corner='2,2,2,2' mask='#FFFF00FF'&quot; bkpushedimage=&quot;file='scrollbar.bmp' source='36,162,52,178' corner='2,2,2,2' mask='#FFFF00FF'&quot; bkdisabledimage=&quot;file='scrollbar.bmp' source='54,162,70,178' corner='2,2,2,2' mask='#FFFF00FF'&quot; " />
+  	<Default name="HScrollBar" value="button1normalimage=&quot;file='scrollbar.bmp' source='0,0,16,16' mask='#FFFF00FF'&quot; button1hotimage=&quot;file='scrollbar.bmp' source='18,0,34,16' mask='#FFFF00FF'&quot; button1pushedimage=&quot;file='scrollbar.bmp' source='36,0,52,16' mask='#FFFF00FF'&quot; button1disabledimage=&quot;file='scrollbar.bmp' source='54,0,70,16' mask='#FFFF00FF'&quot; button2normalimage=&quot;file='scrollbar.bmp' source='0,18,16,34' mask='#FFFF00FF'&quot; button2hotimage=&quot;file='scrollbar.bmp' source='18,18,34,34' mask='#FFFF00FF'&quot; button2pushedimage=&quot;file='scrollbar.bmp' source='36,18,52,34' mask='#FFFF00FF'&quot; button2disabledimage=&quot;file='scrollbar.bmp' source='54,18,70,34' mask='#FFFF00FF'&quot; thumbnormalimage=&quot;file='scrollbar.bmp' source='0,36,16,52' corner='2,2,2,2' mask='#FFFF00FF'&quot; thumbhotimage=&quot;file='scrollbar.bmp' source='18,36,34,52' corner='2,2,2,2' mask='#FFFF00FF'&quot; thumbpushedimage=&quot;file='scrollbar.bmp' source='36,36,52,52' corner='2,2,2,2' mask='#FFFF00FF'&quot; thumbdisabledimage=&quot;file='scrollbar.bmp' source='54,36,70,52' corner='2,2,2,2' mask='#FFFF00FF'&quot; railnormalimage=&quot;file='scrollbar.bmp' source='0,54,16,70' corner='2,2,2,2' mask='#FFFF00FF'&quot; railhotimage=&quot;file='scrollbar.bmp' source='18,54,34,70' corner='2,2,2,2' mask='#FFFF00FF'&quot; railpushedimage=&quot;file='scrollbar.bmp' source='36,54,52,70' corner='2,2,2,2' mask='#FFFF00FF'&quot; raildisabledimage=&quot;file='scrollbar.bmp' source='54,54,70,70' corner='2,2,2,2' mask='#FFFF00FF'&quot; bknormalimage=&quot;file='scrollbar.bmp' source='0,72,16,88' corner='2,2,2,2' mask='#FFFF00FF'&quot; bkhotimage=&quot;file='scrollbar.bmp' source='18,72,34,88' corner='2,2,2,2' mask='#FFFF00FF'&quot; bkpushedimage=&quot;file='scrollbar.bmp' source='36,72,52,88' corner='2,2,2,2' mask='#FFFF00FF'&quot; bkdisabledimage=&quot;file='scrollbar.bmp' source='54,72,70,88' corner='2,2,2,2' mask='#FFFF00FF'&quot; " /> 
+    <VerticalLayout bkcolor="#FF1E1E1E">
+        <VerticalLayout padding="1,1,0,0" bkcolor="#FF3F5465">
+            <HorizontalLayout height="24" bkcolor="#FF3F5465">   
+            		<HorizontalLayout>
+                	<Control name="logo_ico" width="16" height="16" padding="10,4,0,0" bkimage="logo_ico.png" />
+                	<Label name="Caption" text="Drag UI Demo" width="350" height="24" padding="5,0,0,0" textcolor="#00F0F0F0" disabledtextcolor="#FFA7A6AA" />
+               	</HorizontalLayout>
+               	<HorizontalLayout width="129">
+               		<Button name="help" width="28" height="19" padding="0,0,0,0" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" align="center" normalimage="btn_help_normal.png" hotimage="btn_help_highlight.png" pushedimage="btn_help_down.png" />                	
+               	 	<Button name="minimum" width="28" height="19" padding="0,0,0,0" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" align="center" normalimage="btn_mini_normal.png" hotimage="btn_mini_highlight.png" pushedimage="btn_mini_down.png" />
+                	<Button name="maxbtn" width="28" height="19" padding="2,0,0,0" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" align="center" normalimage="btn_max_normal.png" hotimage="btn_max_highlight.png" pushedimage="btn_max_down.png" /> 
+                	<Button name="restorebtn" visible="false" width="28" height="19" padding="2,0,0,0" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" align="center" normalimage="btn_restore_normal.png" hotimage="btn_restore_highlight.png" pushedimage="btn_restore_down.png" />
+                	<Button name="Quit" width="39" height="19" padding="2,0,0,0" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" align="center" normalimage="btn_close_normal.png" hotimage="btn_close_highlight.png" pushedimage="btn_close_down.png" />
+            		</HorizontalLayout>
+            </HorizontalLayout>
+            <HorizontalLayout  padding="10,0,10,12" bkcolor="#FF1E1E1E">
+                <VerticalLayout name="left_list" width="130" padding="1,1,0,0" bkcolor="#FF232C33">
+                    <Option name="left_list_btn" text="Test" width="120" height="40" padding="5,30,0,0" bkcolor="#FF3F5465" textcolor="#00F0F0F0" disabledtextcolor="#FFA7A6AA" align="center" />
+                    <!-- <Option text="Mic Test" width="150" height="40" padding="5,5,0,0" textcolor="#005E819E" disabledtextcolor="#FFA7A6AA" align="center" /> -->
+                    <!-- <Option text="IR Key Test"  width="150" height="40" padding="5,5,0,0" textcolor="#005E819E" disabledtextcolor="#FFA7A6AA" align="center" /> -->
+                </VerticalLayout>
+                <VerticalLayout name="line01" width="1" padding="0,1,0,0" bkcolor="#FF3F5465" />
+                <VerticalLayout name="main"  padding="0,1,0,0">
+                    <VerticalLayout name="main_drag" vscrollbar="true" inset="0,0,1,0" padding="0,0,0,0">
+                    		
+                        
+                    </VerticalLayout>                  
+                </VerticalLayout>
+                <VerticalLayout width="1" padding="0,1,0,0" bkcolor="#FF3F5465" />
+                <VerticalLayout name="right_section" width="244" padding="0,1,0,0" bkcolor="#FF232C33"> 
+                		<HorizontalLayout height="51">
+                			<VerticalLayout></VerticalLayout> 
+                			<VerticalLayout width="124">
+                    		<Control name="logo" width="124" height="26" padding=",25,0,0" bkimage="logo.png" />   
+                    	</VerticalLayout>
+                    	<VerticalLayout></VerticalLayout> 
+                    </HorizontalLayout>
+                    <HorizontalLayout name="line_w" height="1" padding="10,30,10,0" bkcolor="#FF3F5465" />
+                    <VerticalLayout height="88" padding="10,8,10,0">
+                        <Label text="Test Item" width="194" height="24" textcolor="#00A0FFFF" disabledtextcolor="#FFA7A6AA" />
+                        <VerticalLayout height="76">
+                            <HorizontalLayout height="20" padding="1,1,0,0"> 
+                            	 <DragOption name="item1" text="ITEM1" group="test" selectedimage="keytest_btn_h.png" width="120" height="20" bkcolor="#FF1E1E1E" textpadding="10,0,0,0" textcolor="#00F0F0F0" disabledtextcolor="#FFA7A6AA" />                            
+                              </HorizontalLayout>
+                            <HorizontalLayout height="20" padding="1,1,0,0">   
+                            	 <DragOption name="item2" text="ITEM2" group="test" selectedimage="keytest_btn_h.png" width="120" height="20" bkcolor="#FF1E1E1E" textpadding="10,0,0,0" textcolor="#00F0F0F0" disabledtextcolor="#FFA7A6AA" />                           
+                            </HorizontalLayout>
+                            <HorizontalLayout height="24" padding="1,1,0,0">
+                                <DragOption name="item3" text="ITEM3" group="test" selectedimage="keytest_btn_h.png" width="120" height="20" bkcolor="#FF1E1E1E" textpadding="10,0,0,0" textcolor="#00F0F0F0" disabledtextcolor="#FFA7A6AA" />
+                             </HorizontalLayout>
+                        </VerticalLayout>
+                    </VerticalLayout>
+                    <VerticalLayout bordersize="1" minheight="136" padding="10,15,10,0" bkcolor="#FF1E1E1E" bordercolor="#003F5465">
+                       <TabLayout name="switch">
+	                       	<HorizontalLayout>
+								            <ComputerExamine />
+								          </HorizontalLayout>
+								          <HorizontalLayout>
+								            <Text text="item2" textcolor="#ffffffff"  font="4" />
+								          </HorizontalLayout>
+								          <HorizontalLayout>
+								            <Text text="item3" textcolor="#ffffffff"  font="4" />
+								          </HorizontalLayout>
+	                    	</TabLayout>
+	                    </VerticalLayout>
+                    <HorizontalLayout height="1" padding="10,10,10,0" bkcolor="#FF3F5465" />
+                    <VerticalLayout height="153" padding="10,0,0,0">
+                        
+                    </VerticalLayout>
+                </VerticalLayout>
+            </HorizontalLayout>
+        </VerticalLayout>
+    </VerticalLayout>
+</Window>

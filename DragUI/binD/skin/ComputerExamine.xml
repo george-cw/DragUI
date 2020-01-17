@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Window>
+  <HorizontalLayout height="300">
+    <VerticalLayout inset="0,1,0,1" align="center">  
+    		<HorizontalLayout padding="0,20,0,0">  
+    			<HorizontalLayout></HorizontalLayout>
+        	<Text text="Item1" width="120" textcolor="#ffffffff" font="4" />   
+        	<HorizontalLayout></HorizontalLayout>
+        </HorizontalLayout>
+    </VerticalLayout>
+  </HorizontalLayout>
+</Window>
